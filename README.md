@@ -14,7 +14,7 @@ the total amount of transaction between two nodes.
 the values of (existing) edges.
 
 
-** Application Interface: **
+# Application Interface:
 
 Once the program is called, the user can interact with the help of the command prompt through
 the following commands:
