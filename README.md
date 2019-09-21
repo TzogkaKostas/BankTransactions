@@ -25,44 +25,44 @@ the following commands:
   
 2. (i) n (sert) Ni Nj weight
 
-  insert a transaction between Ni and Nj. The accounts Ni and Nj might have not been already inserted.
+  -Insert a transaction between Ni and Nj. The accounts Ni and Nj might have not been already inserted.
   
 3. d (elete) Ni
 
-  delete the account "Ni" as well as all its incoming / outgoing transactions.
+  -Delete the account "Ni" as well as all its incoming / outgoing transactions.
   
 4. (de) l (s) Ni Nj w
 
-  delete the transaction between Ni and Nj by weight "w" . If there are multiple transactions with the same weight
+  -Delete the transaction between Ni and Nj by weight "w" . If there are multiple transactions with the same weight
   delete one of the existing ones. If no weight is specified, all existing edges between Ni and
   Nj are deleted.
 
 5. m (odify) Ni Nj w nw
 
-  change the weight "w" to the new "nw" value. If there are multiple edges with the same weight value
+  -Change the weight "w" to the new "nw" value. If there are multiple edges with the same weight value
   change one of the existing ones.
   
 6. r (eceiving) Ni
 
-  print all incoming transactions.
+  -Print all incoming transactions.
   
 7. c (irclefind) Ni
 
-  find out if the node "Ni" is involved in simple cycles and print those cycles.
+  -Find out if the node "Ni" is involved in simple cycles and print those cycles.
   
 8. f (indcircles) Ni k
 
-  find out if the node "Ni" is involved in circular dealings with others. However, the minimum amount that
+  -Find out if the node "Ni" is involved in circular dealings with others. However, the minimum amount that
   each edge must have is 'k" (minimum weight value).
 
 9. t (raceflow) Ni Nj l
 
-  find possible distributions of money starting at the node Ni and ending at the node Nj. "l" is the maximum length
+  -Find possible distributions of money starting at the node Ni and ending at the node Nj. "l" is the maximum length
   of the path(number of edges to be traversed).
   
 10. e (xit)
 
-  terminate the application.
+  -Terminate the application.
   
 
 eg. 
