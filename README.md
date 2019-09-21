@@ -3,6 +3,7 @@ Implementation of a directed multi-graph structure that illustrates money transf
 The graph provides a mechanism that can help track traffic money and in clarifying poly / triangular transfers.
 
 Application features:
+
 1.Dynamic directed multi-graph structure. There are no restrictions on the size of the graph (ie number
 of vertices/edges available). Each (directed) edge has a weight that essentially indicates
 the total amount of transaction between two nodes.
