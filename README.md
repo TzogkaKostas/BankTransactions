@@ -65,7 +65,26 @@ the following commands:
   -Terminate the application.
 
 
-eg. 
+Execution:
+
+The application can be called in the following strict manner on the command line:
+
+./mygraph -i inputfile -o outfile
+
+where
+
+• mygraph is the executable (can be created by the "makefile"),
+
+• inputfile is the data entry file. In this, each line expresses an transactions between two accounts
+and provides the amount of the transaction.
+
+• outfile is the output file that records the status at the time your application exits.
+
+Both of the above in-line parameters (and their corresponding flags) are optional. Flags can be displayed
+in any order.
+
+make makefile
+./mygraph
 i george
 i john
 i jack
