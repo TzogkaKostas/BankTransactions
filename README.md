@@ -21,7 +21,7 @@ the following commands:
 
 1. i (nsert) Ni
 
-  insert a new account named "Ni".
+  -Insert a new account named "Ni".
   
 2. (i) n (sert) Ni Nj weight
 
@@ -63,7 +63,7 @@ the following commands:
 10. e (xit)
 
   -Terminate the application.
-  
+
 
 eg. 
 i george
